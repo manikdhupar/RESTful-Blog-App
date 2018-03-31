@@ -107,5 +107,5 @@ app.delete("/blogs/:id",function(req,res){
 
 
 app.listen(3000,function(){
-  console.log("Server is running!");
+  console.log("Server is running on PORT 3000");
 });
