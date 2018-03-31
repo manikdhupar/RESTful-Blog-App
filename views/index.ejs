@@ -1,0 +1,31 @@
+<% include partials/header.ejs %>
+
+    <div class="ui text container">
+      <div class="ui huge header">
+        <h1 id="header">RESTful BLOG APP</h1>
+      </div>
+
+      <div id="pad1" class="ui raised very padded text container segment">
+        <!-- <h2 class="ui header">Dogs Roles with Humans</h2>
+        <p></p>
+        <p></p> -->
+        <% blogs.forEach(function(blog){ %>
+          <div id="border">
+            <h2 id="marg" class="ui header"><%= blog.title.toUpperCase() %> </h2>
+            <div class="ui centered card">
+              <div class="image">
+                <img src="<%= blog.image %>">
+              </div>
+              <div class="extra content">
+                <p><%= blog.created %></p>
+              </div>
+            </div>
+            <p><%- blog.body.substring(0,100) %><span> ... </span> </p>
+            <a type="button" class="ui button align" href="/blogs/<%= blog._id %>">Read More</a>
+          </div>
+
+        <% }); %>
+
+    </div>
+  </div>
+<% include partials/footer.ejs %>

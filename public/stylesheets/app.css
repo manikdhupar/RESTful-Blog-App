@@ -1,0 +1,39 @@
+i.icon{
+  font-size: 2em !important;
+}
+
+.a1{
+  margin-top: 80px;
+}
+
+#id1{
+  margin: 1.5%;
+}
+
+#delete{
+  display: inline;
+}
+
+#header{
+  margin-top: 80px;
+  margin-bottom:30px;
+  margin-left: 30%;
+}
+
+#border{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #d4dbcb;
+}
+
+.align{
+  margin-left: 40% !important;
+}
+
+#pad1{
+  padding-top: 0px;
+}
+
+#marg{
+  text-align: center;
+}
